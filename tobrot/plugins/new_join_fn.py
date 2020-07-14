@@ -38,7 +38,7 @@ async def help_message_f(client, message):
     #message_id = 99
     # display the /help
     
-    #await message.reply_text("""join this group for help-- @torrentleechgdrivesupport</a>""", disable_web_page_preview=True)
+    await message.reply_text("""See pinned massege for commands & links.\nSupport group-- @torrentleechgdrivesupport</a>""", disable_web_page_preview=True)
 
 
 async def rename_message_f(client, message):
