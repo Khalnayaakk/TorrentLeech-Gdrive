@@ -69,7 +69,7 @@
       "required": false
     },
     "LEECH_COMMAND": {
-      "description": "Enter your custom leech command like /leech@urgroupname and so on. Default is /leech",
+      "description": "Enter your custom leech command like /leech@botusername and so on. Default is /leech",
       "required": false
     },
     "INDEX_LINK": {
@@ -77,47 +77,23 @@
       "required": false
     },
     "GLEECH_COMMAND": {
-      "description": "Enter your custom gleech command like /gleech1@urgroupname and so on. Default is /gleech",
+      "description": "Enter your custom gleech command like /gleech@botusername and so on. Default is /gleech",
       "required": false
     },
     "TELEGRAM_LEECH_COMMAND_G": {
-      "description": "Enter your custom tleech command like /tleech1@urgroupname and so on. Default is /tleech",
+      "description": "Enter your custom tleech command like /tleech@botusername and so on. Default is /tleech",
       "required": false
     },
     "YTDL_COMMAND": {
-      "description": "Enter your custom ytdl command like ytdl1@urgroupname and so on. Default is /ytdl.",
+      "description": "Enter your custom ytdl command like ytdl@botusername and so on. Default is /ytdl.",
       "required": false
     },
     "CANCEL_COMMAND_G": {
-      "description": "Enter your custom cancel command like cancel@urgroupname and so on. Default is /cancel.",
+      "description": "Enter your custom cancel command like cancel@botusername and so on. Default is /cancel.",
       "required": false
     },
-    "HELP_COMMAND": {
-      "description": "Enter your custom help command like help@urgroupname and so on. Default is /help.",
-      "required": false
-    },  
-    "STATUS_COMMAND": {
-      "description": "Enter your custom status command like status@urgroupname and so on. Default is /status.",
-      "required": false
-    },
-      "RENAME_COMMAND": {
-      "description": "Enter your custom rename command like rename@urgroupname and so on. Default is /rename.",
-      "required": false
-    },
-      "UPLOAD_COMMAND": {
-      "description": "Enter your custom upload command like upload@urgroupname and so on. Default is /upload.",
-      "required": false
-    },
-      "SAVE_THUMBNAIL_COMMAND": {
-      "description": "Enter your custom savethumbnail command like savethumbnail@urgroupname and so on. Default is /savethumbnail.",
-      "required": false
-    },
-      "CLEAR_THUMBNAIL_COMMAND": {
-      "description": "Enter your custom clearthumbnail command like rename@urgroupname and so on. Default is /clearthumbnail.",
-      "required": false
-    },
-      "GET_SIZE_G": {
-      "description": "Enter your custom getsize command like getsize@urgroupname and so on. Default is /getsize.",
+    "GET_SIZE_G": {
+      "description": "Enter your custom getsize command like getsize@botusername and so on. Default is /getsize.",
       "required": false
     },
     "RCLONE_CONFIG": {
@@ -129,7 +105,7 @@
       "required": false
     },
     "CUSTOM_FILE_NAME": {
-      "description": "fill with name u want to prefix the file name like ur channel username🙊, keep empty for do nothing, but add to ur config vars even without input.",
+      "description": "fill with name u want to prefix the file name like ur channel username, keep empty for do nothing, but add to ur config vars even without input.",
       "required": false
     }
   },
