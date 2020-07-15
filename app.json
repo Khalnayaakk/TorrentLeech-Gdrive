@@ -92,10 +92,6 @@
       "description": "Enter your custom cancel command like cancel@urgroupname and so on. Default is /cancel.",
       "required": false
     },
-    "PURGE_COMMAND": {
-      "description": "Enter your custom purge command like purge@urgroupname and so on. Default is /purge.",
-      "required": false
-    },
     "HELP_COMMAND": {
       "description": "Enter your custom help command like help@urgroupname and so on. Default is /help.",
       "required": false
