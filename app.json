@@ -73,7 +73,7 @@
       "required": false
     },
     "INDEX_LINK": {
-      "description": "Enter your index link:",
+      "description": "Enter your index link. Don't have one? Creat a new from here: https://gencode.ve.workers.dev/ ",
       "required": false
     },
     "GLEECH_COMMAND": {
@@ -101,7 +101,7 @@
       "required": false
     },
     "DESTINATION_FOLDER": {
-      "description": "Enter your Destination folder in which you want to upload yoyr file.",
+      "description": "Enter your Destination folder in which you want to upload your file.",
       "required": false
     },
     "CUSTOM_FILE_NAME": {
