@@ -102,7 +102,7 @@ if __name__ == "__main__" :
     #
     status_message_handler = MessageHandler(
         status_message_f,
-        filters=Filters.command(["status"]) & Filters.chat(chats=AUTH_CHANNEL)
+        filters=Filters.command(["status@trntxlchbot"]) & Filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(status_message_handler)
     #
