@@ -29,7 +29,6 @@ from tobrot import (
     TELEGRAM_LEECH_COMMAND_G,
     CANCEL_COMMAND_G,
     GET_SIZE_G,
-    PURGE_COMMAND,
     HELP_COMMAND,
     STATUS_COMMAND,
     RENAME_COMMAND,
@@ -91,7 +90,7 @@ if __name__ == "__main__" :
     #
     incoming_purge_message_handler = MessageHandler(
         incoming_purge_message_f,
-        filters=Filters.command([f"{PURGE_COMMAND}"]) & Filters.chat(chats=AUTH_CHANNEL)
+        filters=Filters.command(["purge"]) & Filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(incoming_purge_message_handler)
     #
